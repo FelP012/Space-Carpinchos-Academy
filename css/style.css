@@ -3,8 +3,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
 
 @import '../fonts/font-awesome-4.7.0/css/font-awesome.min.css';
-
-
+#skere{
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+#skere:hover{
+    color: #ffcf00;
+}
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
